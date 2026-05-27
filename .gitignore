@@ -61,6 +61,11 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
+# Local POC SQLite DB (+ WAL sidecar files)
+onpreo_poc.db
+onpreo_poc.db-wal
+onpreo_poc.db-shm
+
 # Flask stuff:
 instance/
 .webassets-cache
